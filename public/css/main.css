@@ -12,7 +12,7 @@ body {
   position: relative;
   display: grid;
   height: 100%;
-  grid-template-columns: 58% 42%;
+  grid-template-columns: 1fr 42%;
   grid-template-rows: auto; }
 
 .info,
@@ -22,7 +22,11 @@ body {
 
 .factory-image {
   display: block;
+  background-color: #232071;
   background-image: url("../images/FactoryIllustration.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
   grid-column: 1 / 2;
   grid-row: start / end; }
 
@@ -54,6 +58,7 @@ h1,
 
 p,
 .paragraph {
+  margin: 1em 0 0;
   font-size: 1rem;
   line-height: 1.5; }
 
@@ -68,12 +73,13 @@ button {
   cursor: pointer; }
 
 .button {
-  display: inline-block;
+  display: block;
   padding: 13px 35px;
-  margin: 40px 0;
+  margin: 40px auto;
   color: #FFF;
   font-size: 1.6rem;
   line-height: 1;
+  text-align: center;
   background-color: #002F6C;
   border-radius: 8px; }
 
@@ -87,7 +93,10 @@ ul {
 
 .description-list {
   position: relative;
-  margin: 65px; }
+  margin: 40px;
+  cursor: pointer; }
+  .description-list:hover .description-list__info {
+    visibility: visible; }
   .description-list:before {
     position: absolute;
     top: 0;
@@ -97,24 +106,23 @@ ul {
     height: 90%;
     margin: auto 0;
     content: '';
-    background: blue; }
+    background: #6EC3FA; }
   .description-list__term {
     position: relative;
     align-items: center;
     display: flex;
     font-size: 1.125rem; }
-    .description-list__term:hover + .description-list__info {
-      visibility: visible; }
     .description-list__term:before {
       display: block;
       width: 20px;
       height: 20px;
       margin-right: 8px;
       content: '';
-      background: gray;
+      background: #6EC3FA;
       border-radius: 100%; }
   .description-list__info {
-    height: 65px;
+    width: 240px;
+    height: 70px;
     margin: 5px 0 5px 28px;
     font-size: 0.875rem;
     line-height: 1.5;

@@ -10,7 +10,14 @@ ul {
 
 .description-list {
   position: relative;
-  margin: 65px;
+  margin: 40px;
+  cursor: pointer;
+
+  &:hover {
+    .description-list__info {
+      visibility: visible;
+    }
+  }
 
   &:before {
     position: absolute;
@@ -21,7 +28,7 @@ ul {
     height: 90%;
     margin: auto 0;
     content: '';
-    background: blue;
+    background: $malibu;
   }
 
   &__term {
@@ -30,25 +37,20 @@ ul {
     display: flex;
     font-size: 1.125rem;
 
-    &:hover {
-       + .description-list__info {
-        visibility: visible;
-      }
-    }
-
     &:before {
       display: block;
       width: 20px;
       height: 20px;
       margin-right: 8px;
       content: '';
-      background: gray;
+      background: $malibu;
       border-radius: 100%;
     }
   }
 
   &__info {
-    height: 65px;
+    width: 240px;
+    height: 70px;
     margin: 5px 0 5px 28px;
     font-size: 0.875rem;
     line-height: 1.5;
