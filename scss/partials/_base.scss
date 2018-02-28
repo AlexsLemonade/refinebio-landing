@@ -54,16 +54,20 @@ body {
 
   &__container {
     padding: 25px 45px;
+
+    @media only screen and (min-width: $mobile) {
+      padding: 25px 75px;
+    }
   }
 }
 
 .logo {
   display: block;
   width: 60%;
+  max-width: 230px;
   margin: 30px auto;
 
   @media only screen and (min-width: $mobile) {
-    max-width: 230px;
     margin: 55px auto;
   }
 }
