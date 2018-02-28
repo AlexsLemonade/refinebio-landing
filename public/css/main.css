@@ -1,20 +1,128 @@
 html,
 body {
-  font-family: 'Rubik', Helvetica, sans-serif;
-  font-weight: bold; }
-
-html,
-body {
   position: relative;
   width: 100%;
-  height: 100%; }
+  padding: 0;
+  margin: 0; }
+
+* {
+  box-sizing: border-box; }
 
 .container {
   position: relative;
-  display: flex;
-  height: 100%; }
+  display: grid;
+  height: 100%;
+  grid-template-columns: 58% 42%;
+  grid-template-rows: auto; }
 
 .info,
 .factory-image {
-  width: 50%;
-  height: 100%; }
+  height: 100%;
+  min-height: 100vh; }
+
+.factory-image {
+  display: block;
+  background-image: url("../images/FactoryIllustration.svg");
+  grid-column: 1 / 2;
+  grid-row: start / end; }
+
+.info {
+  padding: 25px 45px;
+  background-color: #EBF1F8;
+  grid-column: 2 / end;
+  grid-row: start / end; }
+  .info__container {
+    padding: 0 55px; }
+
+.logo {
+  display: block;
+  max-width: 245px;
+  margin: 55px auto; }
+
+html,
+body {
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased; }
+
+h1,
+.heading--1 {
+  font-family: 'Rubik', Helvetica, sans-serif;
+  font-size: 1.625rem;
+  font-weight: 400;
+  line-height: 1.2; }
+
+p,
+.paragraph {
+  font-size: 1rem;
+  line-height: 1.5; }
+
+a {
+  text-decoration: none; }
+
+button {
+  font-family: inherit;
+  background: none;
+  box-shadow: none;
+  border: none;
+  cursor: pointer; }
+
+.button {
+  display: inline-block;
+  padding: 13px 35px;
+  margin: 40px 0;
+  color: #FFF;
+  font-size: 1.6rem;
+  line-height: 1;
+  background-color: #002F6C;
+  border-radius: 8px; }
+
+ul,
+ol {
+  padding: 0;
+  margin: 0; }
+
+ul {
+  list-style-position: inside; }
+
+.description-list {
+  position: relative;
+  margin: 65px; }
+  .description-list:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 8px;
+    width: 3px;
+    height: 90%;
+    margin: auto 0;
+    content: '';
+    background: blue; }
+  .description-list__term {
+    position: relative;
+    align-items: center;
+    display: flex;
+    font-size: 1.125rem; }
+    .description-list__term:hover + .description-list__info {
+      visibility: visible; }
+    .description-list__term:before {
+      display: block;
+      width: 20px;
+      height: 20px;
+      margin-right: 8px;
+      content: '';
+      background: gray;
+      border-radius: 100%; }
+  .description-list__info {
+    height: 65px;
+    margin: 5px 0 5px 28px;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    visibility: hidden; }
+
+.social-links {
+  text-align: center; }
+  .social-links__icon {
+    width: 30px;
+    margin: 0 20px;
+    opacity: 0.4; }

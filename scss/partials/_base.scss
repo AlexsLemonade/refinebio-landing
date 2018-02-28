@@ -2,17 +2,51 @@ html,
 body {
   position: relative;
   width: 100%;
-  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .container {
   position: relative;
-  display: flex;
+  display: grid;
   height: 100%;
+
+  grid-template-columns: 58% 42%;
+  grid-template-rows: auto;
 }
 
 .info,
 .factory-image {
-  width: 50%;
   height: 100%;
+  min-height: 100vh;
+}
+
+.factory-image {
+  display: block;
+  background-image: url('../images/FactoryIllustration.svg');
+
+  grid-column: 1 / 2;
+  grid-row: start / end;
+}
+
+.info {
+  padding: 25px 45px;
+  background-color: $background--light;
+
+  grid-column: 2 / end;
+  grid-row: start / end;
+
+  &__container {
+    padding: 0 55px;
+  }
+}
+
+.logo {
+  display: block;
+  max-width: 245px;
+  margin: 55px auto;
 }
