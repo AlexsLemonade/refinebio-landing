@@ -99,7 +99,13 @@ button {
   line-height: 1;
   text-align: center;
   background-color: #002F6C;
-  border-radius: 8px; }
+  border-radius: 8px;
+  transition: background-color 0.2s ease-in-out; }
+  .button:hover {
+    background-color: #00459f; }
+  .button:active, .button:focus {
+    background-color: #001939;
+    outline: none; }
 
 ul,
 ol {
@@ -167,7 +173,12 @@ ol {
     opacity: 0.4; }
     @media only screen and (min-width: 800px) {
       .social-links__icon {
-        margin: 0 20px; } }
+        margin: 0 20px;
+        transition: opacity 0.3s ease-in-out; }
+        .social-links__icon:hover {
+          opacity: 0.75; }
+        .social-links__icon:active, .social-links__icon:focus {
+          opacity: 1; } }
   .social-links__credit {
     width: 95%;
     padding: 25px;
@@ -176,4 +187,5 @@ ol {
     text-align: left; }
     @media only screen and (min-width: 800px) {
       .social-links__credit {
+        width: 100%;
         text-align: center; } }

@@ -13,6 +13,16 @@
 
     @media only screen and (min-width: $mobile) {
       margin: 0 20px;
+      transition: opacity 0.3s ease-in-out;
+
+      &:hover {
+        opacity: 0.75;
+      }
+
+      &:active,
+      &:focus {
+        opacity: 1;
+      }
     }
   }
 
@@ -24,6 +34,7 @@
     text-align: left;
 
     @media only screen and (min-width: $mobile) {
+      width: 100%;
       text-align: center;
     }
   }

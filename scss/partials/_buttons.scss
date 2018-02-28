@@ -16,4 +16,15 @@ button {
   text-align: center;
   background-color: $midnight-blue;
   border-radius: 8px;
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: lighten($midnight-blue, 10%);
+  }
+
+  &:active,
+  &:focus {
+    background-color: darken($midnight-blue, 10%);
+    outline: none;
+  }
 }
