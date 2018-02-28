@@ -1,9 +1,26 @@
 .social-links {
+  padding: 10px 0;
   text-align: center;
+
+  @media only screen and (min-width: $mobile) {
+    margin-top: 0;
+  }
 
   &__icon {
     width: 30px;
-    margin: 0 20px;
+    margin: 0 10px;
     opacity: 0.4;
+
+    @media only screen and (min-width: $mobile) {
+      margin: 0 20px;
+    }
+  }
+
+  &__credit {
+    width: 95%;
+    padding: 25px;
+    margin-top: 0;
+    font-size: 0.875rem;
+    text-align: left;
   }
 }

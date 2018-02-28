@@ -13,9 +13,13 @@ body {
 }
 
 %paragraph {
-  margin: 1em 0 0;
+  margin: 25px 0 0;
   font-size: 1rem;
   line-height: 1.5;
+
+  @media only screen and (min-width: $mobile) {
+    margin: 1em 0 0;
+  }
 }
 
 a {

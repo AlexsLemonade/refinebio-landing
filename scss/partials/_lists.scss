@@ -4,18 +4,21 @@ ol {
   margin: 0;
 }
 
-ul {
-  list-style-position: inside;
+.list {
+  margin-left: 30px;
 }
 
 .description-list {
   position: relative;
-  margin: 40px;
+  margin: 50px 0;
   cursor: pointer;
 
-  &:hover {
-    .description-list__info {
-      visibility: visible;
+  @media only screen and (min-width: $mobile) {
+    margin: 40px;
+    &:hover {
+      .description-list__info {
+        visibility: visible;
+      }
     }
   }
 
@@ -49,11 +52,15 @@ ul {
   }
 
   &__info {
-    width: 240px;
-    height: 70px;
-    margin: 5px 0 5px 28px;
+    margin: 10px 0 10px 28px;
     font-size: 0.875rem;
     line-height: 1.5;
-    visibility: hidden;
+
+    @media only screen and (min-width: $mobile) {
+      width: 240px;
+      height: 70px;
+      margin: 5px 0 5px 28px;
+      visibility: hidden;
+    }
   }
 }

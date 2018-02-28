@@ -4,6 +4,7 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
+  background-color: $background--light;
 }
 
 * {
@@ -15,8 +16,10 @@ body {
   display: grid;
   height: 100%;
 
-  grid-template-columns: 1fr 42%;
-  grid-template-rows: auto;
+  @media only screen and (min-width: $mobile) {
+    grid-template-columns: 1fr 42%;
+    grid-template-rows: auto;
+  }
 }
 
 .info,
@@ -26,31 +29,41 @@ body {
 }
 
 .factory-image {
-  display: block;
-  background-color: #232071;
-  background-image: url('../images/FactoryIllustration.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto 100%;
+  display: none;
 
-  grid-column: 1 / 2;
-  grid-row: start / end;
+  @media only screen and (min-width: $mobile) {
+    display: block;
+    background-color: #232071;
+    background-image: url('../images/FactoryIllustration.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+
+    grid-column: 1 / 2;
+    grid-row: start / end;
+  }
 }
 
 .info {
-  padding: 25px 45px;
-  background-color: $background--light;
+  width: 100%;
 
-  grid-column: 2 / end;
-  grid-row: start / end;
+  @media only screen and (min-width: $mobile) {
+    grid-column: 2 / end;
+    grid-row: start / end;
+  }
 
   &__container {
-    padding: 0 55px;
+    padding: 25px 45px;
   }
 }
 
 .logo {
   display: block;
-  max-width: 245px;
-  margin: 55px auto;
+  width: 60%;
+  margin: 30px auto;
+
+  @media only screen and (min-width: $mobile) {
+    max-width: 230px;
+    margin: 55px auto;
+  }
 }
