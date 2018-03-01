@@ -46,7 +46,9 @@ body {
     padding: 25px 45px; }
     @media only screen and (min-width: 800px) {
       .info__container {
-        padding: 25px 75px; } }
+        max-width: 645px;
+        padding: 25px 75px;
+        margin: 0 auto; } }
 
 .logo {
   display: block;
