@@ -1,0 +1,31 @@
+button {
+  font-family: inherit;
+  background: none;
+  box-shadow: none;
+  border: none;
+  cursor: pointer;
+}
+
+.button {
+  display: block;
+  padding: 13px 35px;
+  margin: 40px auto;
+  color: $white;
+  font-size: 1.6rem;
+  line-height: 1;
+  text-align: center;
+  background-color: $midnight-blue;
+  border-radius: 8px;
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    background-color: lighten($midnight-blue, 10%);
+  }
+
+  &:active,
+  &:focus {
+    background-color: darken($midnight-blue, 10%);
+    outline: none;
+  }
+}

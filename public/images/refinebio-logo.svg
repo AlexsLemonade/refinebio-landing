@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="222px" height="102px" viewBox="0 0 222 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FactoryLanding" transform="translate(-1013.000000, -99.000000)">
+            <g id="Logo" transform="translate(1013.000000, 99.000000)">
+                <g id="DNA">
+                    <g id="science-(2)" fill="#002F6C" fill-rule="nonzero">
+                        <path d="M51.0243024,99.8103873 C51.0243024,85.1865574 39.8848905,68.0486108 27.8444982,53.2375563 C15.1670681,37.6429086 0.482892929,20.9078574 0.482892929,2.43185444 C0.482892929,-0.434480519 4.20235691,-0.434268966 4.20235691,2.43185444 C4.20235691,17.0556843 18.4820207,36.350394 30.5224131,51.1614485 C43.1996434,66.7560962 54.2401255,81.3341728 54.2401255,99.8103873 C54.2399257,102.676511 51.0243024,102.676511 51.0243024,99.8103873 Z" id="Shape" transform="translate(27.361509, 51.121081) scale(-1, 1) translate(-27.361509, -51.121081) "></path>
+                        <path d="M52.206498,99.8103873 C52.206498,85.1865574 41.8549247,69.8626051 29.8145324,55.0515507 C23.2418442,46.9664139 16.3153813,38.634101 10.9556441,30.5760891 C5.97749641,23.091772 1.0500637,11.3581894 1.0500637,2.46117875 C1.0500637,-0.405156209 5.14105775,-0.404944656 5.14105775,2.46117875 C5.14105775,17.0850086 19.6642164,36.350394 31.7046087,51.1614485 C44.381839,66.7560962 55.4223211,81.3341728 55.4223211,99.8103873 C55.4221214,102.676511 52.206498,102.676511 52.206498,99.8103873 Z" id="Shape"></path>
+                    </g>
+                    <g id="TopPairs" transform="translate(5.000000, 5.000000)" stroke="#002F6C">
+                        <g id="BasePair" transform="translate(27.500000, 3.000000) scale(-1, 1) translate(-27.500000, -3.000000) translate(9.000000, 0.000000)">
+                            <path d="M0.189126712,2.70338983 L30.1572077,2.70338983" id="Line" stroke-width="3" stroke-linecap="square"></path>
+                            <ellipse id="Oval" stroke-width="2" cx="33.4794521" cy="2.70338983" rx="2.57534247" ry="2.70338983"></ellipse>
+                        </g>
+                        <g id="BasePair-Copy" transform="translate(0.000000, 6.758475)">
+                            <path d="M0.5,2.70338983 L29.1572077,2.70338983" id="Line" stroke-width="3" stroke-linecap="square"></path>
+                            <ellipse id="Oval" stroke-width="2" cx="32.4794521" cy="2.70338983" rx="2.57534247" ry="2.70338983"></ellipse>
+                        </g>
+                        <g id="BasePair-Copy" transform="translate(6.150685, 20.275424)">
+                            <path d="M0.342518517,2.70338983 L17.2120022,2.70338983" id="Line" stroke-width="3" stroke-linecap="square"></path>
+                            <ellipse id="Oval" stroke-width="2" cx="20.5342466" cy="2.70338983" rx="2.57534247" ry="2.70338983"></ellipse>
+                        </g>
+                        <g id="BasePair" transform="translate(28.136986, 16.516949) scale(-1, 1) translate(-28.136986, -16.516949) translate(14.136986, 13.516949)">
+                            <path d="M0.321917808,2.70338983 L21.7873446,2.70338983" id="Line" stroke-width="3" stroke-linecap="square"></path>
+                            <ellipse id="Oval" stroke-width="2" cx="25.109589" cy="2.70338983" rx="2.57534247" ry="2.70338983"></ellipse>
+                        </g>
+                        <g id="BasePair" transform="translate(24.979452, 31.033898) scale(-1, 1) translate(-24.979452, -31.033898) translate(17.479452, 28.033898)">
+                            <path d="M0.321917808,2.70338983 L8.2667967,2.70338983" id="Line" stroke-width="3" stroke-linecap="square"></path>
+                            <ellipse id="Oval" stroke-width="2" cx="11.5890411" cy="2.70338983" rx="2.57534247" ry="2.70338983"></ellipse>
+                        </g>
+                    </g>
+                    <g id="TopPairs-Copy" transform="translate(28.000000, 78.500000) scale(1, -1) translate(-28.000000, -78.500000) translate(5.000000, 61.000000)" stroke="#002F6C">
+                        <g id="BasePair" transform="translate(27.500000, 3.000000) scale(-1, 1) translate(-27.500000, -3.000000) translate(9.000000, 0.000000)">
+                            <path d="M0.189126712,2.70338983 L30.1572077,2.70338983" id="Line" stroke-width="3" stroke-linecap="square"></path>
+                            <ellipse id="Oval" stroke-width="2" cx="33.4794521" cy="2.70338983" rx="2.57534247" ry="2.70338983"></ellipse>
+                        </g>
+                        <g id="BasePair-Copy" transform="translate(0.000000, 6.758475)">
+                            <path d="M0.5,2.70338983 L29.1572077,2.70338983" id="Line" stroke-width="3" stroke-linecap="square"></path>
+                            <ellipse id="Oval" stroke-width="2" cx="32.4794521" cy="2.70338983" rx="2.57534247" ry="2.70338983"></ellipse>
+                        </g>
+                        <g id="BasePair-Copy" transform="translate(6.150685, 20.275424)">
+                            <path d="M0.342518517,2.70338983 L17.2120022,2.70338983" id="Line" stroke-width="3" stroke-linecap="square"></path>
+                            <ellipse id="Oval" stroke-width="2" cx="20.5342466" cy="2.70338983" rx="2.57534247" ry="2.70338983"></ellipse>
+                        </g>
+                        <g id="BasePair" transform="translate(28.136986, 16.516949) scale(-1, 1) translate(-28.136986, -16.516949) translate(14.136986, 13.516949)">
+                            <path d="M0.321917808,2.70338983 L21.7873446,2.70338983" id="Line" stroke-width="3" stroke-linecap="square"></path>
+                            <ellipse id="Oval" stroke-width="2" cx="25.109589" cy="2.70338983" rx="2.57534247" ry="2.70338983"></ellipse>
+                        </g>
+                        <g id="BasePair" transform="translate(24.979452, 31.033898) scale(-1, 1) translate(-24.979452, -31.033898) translate(17.479452, 28.033898)">
+                            <path d="M0.321917808,2.70338983 L8.2667967,2.70338983" id="Line" stroke-width="3" stroke-linecap="square"></path>
+                            <ellipse id="Oval" stroke-width="2" cx="11.5890411" cy="2.70338983" rx="2.57534247" ry="2.70338983"></ellipse>
+                        </g>
+                    </g>
+                </g>
+                <text id="refine.bio" font-family="Lato-Regular, Lato" font-size="40" font-weight="normal" fill="#002F6C">
+                    <tspan x="57" y="63">refine</tspan>
+                    <tspan x="160.08" y="63">.</tspan>
+                    <tspan x="168.56" y="63">bio</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+install: true
+script: echo "We don't need no tests."
+deploy:
+  provider: s3
+  access_key_id: $AWS_ACESS_KEY_ID
+  secret_access_key: $AWS_SECRET_ACCESS_KEY
+  bucket: "refine.bio"
+  skip_cleanup: true
+  local_dir: public
+  on:
+    branch: master
