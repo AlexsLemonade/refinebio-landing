@@ -83,6 +83,13 @@ p,
 a {
   text-decoration: none; }
 
+input {
+  font-family: inherit;
+  font-size: 1rem; }
+
+input[type='radio'] {
+  margin-right: 8px; }
+
 button {
   font-family: inherit;
   background: none;
@@ -100,7 +107,8 @@ button {
   text-align: center;
   background-color: #002F6C;
   border-radius: 8px;
-  transition: background-color 0.2s ease-in-out; }
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer; }
   .button:hover {
     background-color: #00459f; }
   .button:active, .button:focus {
@@ -189,3 +197,26 @@ ol {
       .social-links__credit {
         width: 100%;
         text-align: center; } }
+
+#mce-success-response:before {
+  display: block;
+  width: 134px;
+  height: 112px;
+  margin: 0 auto;
+  content: '';
+  background-image: url(../images/SubscribedIllustration.svg); }
+
+#mc-embedded-subscribe-form {
+  max-width: 500px; }
+  #mc-embedded-subscribe-form #mc_embed_signup div.mce_inline_error {
+    z-index: 1;
+    padding: 5px 0;
+    margin: 0;
+    color: #DB3B28;
+    font-size: 0.875rem;
+    font-weight: 400;
+    background: none; }
+  #mc-embedded-subscribe-form #mc_embed_signup input.mce_inline_error {
+    border-color: #DB3B28; }
+  #mc-embedded-subscribe-form #mce-success-response {
+    text-align: center; }

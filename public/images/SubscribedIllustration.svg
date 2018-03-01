@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="134px" height="112px" viewBox="0 0 134 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>undraw_opened_gi4n (1)</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-26.4%" y="-29.4%" width="152.9%" height="168.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="3.67537947e-14%" id="linearGradient-2">
+            <stop stop-color="#808080" stop-opacity="0.25" offset="0%"></stop>
+            <stop stop-color="#808080" stop-opacity="0.12" offset="54%"></stop>
+            <stop stop-color="#808080" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-17529%" y1="15773%" x2="-17529%" y2="307%" id="linearGradient-3">
+            <stop stop-color="#808080" stop-opacity="0.25" offset="0%"></stop>
+            <stop stop-color="#808080" stop-opacity="0.12" offset="54%"></stop>
+            <stop stop-color="#808080" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-24629%" y1="45625%" x2="-24629%" y2="30159%" id="linearGradient-4">
+            <stop stop-color="#808080" stop-opacity="0.25" offset="0%"></stop>
+            <stop stop-color="#808080" stop-opacity="0.12" offset="54%"></stop>
+            <stop stop-color="#808080" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="6000%" y1="22617%" x2="6000%" y2="7151%" id="linearGradient-5">
+            <stop stop-color="#808080" stop-opacity="0.25" offset="0%"></stop>
+            <stop stop-color="#808080" stop-opacity="0.12" offset="54%"></stop>
+            <stop stop-color="#808080" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="43566%" y1="69121%" x2="43566%" y2="921%" id="linearGradient-6">
+            <stop stop-color="#808080" stop-opacity="0.25" offset="0%"></stop>
+            <stop stop-color="#808080" stop-opacity="0.12" offset="54%"></stop>
+            <stop stop-color="#808080" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="43566%" y1="54471%" x2="43566%" y2="6959%" id="linearGradient-7">
+            <stop stop-color="#808080" stop-opacity="0.25" offset="0%"></stop>
+            <stop stop-color="#808080" stop-opacity="0.12" offset="54%"></stop>
+            <stop stop-color="#808080" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="60030%" y1="78669%" x2="60030%" y2="56596%" id="linearGradient-8">
+            <stop stop-color="#808080" stop-opacity="0.25" offset="0%"></stop>
+            <stop stop-color="#808080" stop-opacity="0.12" offset="54%"></stop>
+            <stop stop-color="#808080" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile_ModalSuccess" transform="translate(-94.000000, -116.000000)" fill-rule="nonzero">
+            <g id="Modal" transform="translate(21.000000, 32.000000)">
+                <g id="undraw_opened_gi4n-(1)" filter="url(#filter-1)" transform="translate(88.000000, 95.000000)">
+                    <rect id="Rectangle-path" fill="url(#linearGradient-2)" transform="translate(17.160000, 54.358974) rotate(-16.600000) translate(-17.160000, -54.358974) " x="3.12" y="45.1282051" width="28.08" height="18.4615385"></rect>
+                    <rect id="Rectangle-path" fill="#FFFFFF" transform="translate(17.160000, 54.871795) rotate(-16.600000) translate(-17.160000, -54.871795) " x="3.12" y="46.1538462" width="28.08" height="17.4358974"></rect>
+                    <g id="Group" opacity="0.6" transform="translate(3.120000, 49.230769)" fill="#F55F44">
+                        <rect id="Rectangle-path" transform="translate(2.144081, 1.771777) rotate(163.400000) translate(-2.144081, -1.771777) " x="0.371144329" y="0.502754211" width="3.54587422" height="2.53804574"></rect>
+                        <rect id="Rectangle-path" transform="translate(11.438965, 5.033766) rotate(163.400000) translate(-11.438965, -5.033766) " x="4.62966421" y="4.52094791" width="13.6171658" height="1"></rect>
+                        <rect id="Rectangle-path" transform="translate(13.732532, 6.232359) rotate(163.400000) translate(-13.732532, -6.232359) " x="8.7672378" y="5.71953657" width="9.92913566" height="1"></rect>
+                    </g>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-3)" transform="translate(86.840000, 12.307692) rotate(-78.980000) translate(-86.840000, -12.307692) " x="78" y="-2.05128205" width="17.68" height="28.7179487"></rect>
+                    <rect id="Rectangle-path" fill="#FFFFFF" transform="translate(86.840000, 12.307692) rotate(-78.980000) translate(-86.840000, -12.307692) " x="78" y="-2.05128205" width="17.68" height="28.7179487"></rect>
+                    <g id="Group" opacity="0.6" transform="translate(73.840000, 3.076923)" fill="#F55F44">
+                        <rect id="Rectangle-path" transform="translate(2.017901, 1.624496) rotate(-168.980000) translate(-2.017901, -1.624496) " x="0.230834339" y="0.329708376" width="3.57413333" height="2.58957576"></rect>
+                        <rect id="Rectangle-path" transform="translate(8.742018, 8.837745) rotate(-168.980000) translate(-8.742018, -8.837745) " x="1.88036013" y="8.32492785" width="13.7256889" height="1"></rect>
+                        <rect id="Rectangle-path" transform="translate(10.211176, 10.972342) rotate(-168.980000) translate(-10.211176, -10.972342) " x="5.20822921" y="10.4595041" width="10.0082667" height="1"></rect>
+                    </g>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-4)" transform="translate(89.960000, 52.307692) rotate(-23.450000) translate(-89.960000, -52.307692) " x="81.12" y="37.9487179" width="17.68" height="28.7179487"></rect>
+                    <rect id="Rectangle-path" fill="#FFFFFF" transform="translate(89.960000, 52.307692) rotate(-23.450000) translate(-89.960000, -52.307692) " x="81.12" y="37.9487179" width="17.68" height="28.7179487"></rect>
+                    <g id="Group" opacity="0.6" transform="translate(85.280000, 37.948718)" fill="#47E6B1">
+                        <rect id="Rectangle-path" transform="translate(5.318151, 2.219109) rotate(-113.450000) translate(-5.318151, -2.219109) " x="3.67302733" y="0.875550092" width="3.29024695" height="2.6871177"></rect>
+                        <rect id="Rectangle-path" transform="translate(3.221476, 12.093139) rotate(-113.450000) translate(-3.221476, -12.093139) " x="-3.09565105" y="11.5803213" width="12.6354844" height="1"></rect>
+                        <rect id="Rectangle-path" transform="translate(2.345044, 14.576323) rotate(-113.450000) translate(-2.345044, -14.576323) " x="-2.26091053" y="14.0635006" width="9.21332972" height="1"></rect>
+                    </g>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-5)" transform="translate(26.520000, 14.358974) rotate(-19.530000) translate(-26.520000, -14.358974) " x="12.48" y="5.12820513" width="28.08" height="18.4615385"></rect>
+                    <rect id="Rectangle-path" fill="#FFFFFF" transform="translate(26.520000, 13.846154) rotate(-19.530000) translate(-26.520000, -13.846154) " x="12.48" y="5.12820513" width="28.08" height="17.4358974"></rect>
+                    <g id="Group" opacity="0.6" transform="translate(11.440000, 9.230769)" fill="#002F6C">
+                        <rect id="Rectangle-path" transform="translate(2.316131, 1.881186) rotate(160.470000) translate(-2.316131, -1.881186) " x="0.464080143" y="0.558542688" width="3.70410182" height="2.64528711"></rect>
+                        <rect id="Rectangle-path" transform="translate(12.200727, 4.819814) rotate(160.470000) translate(-12.200727, -4.819814) " x="5.08762546" y="4.30699671" width="14.2248048" height="1"></rect>
+                        <rect id="Rectangle-path" transform="translate(14.660203, 5.949287) rotate(160.470000) translate(-14.660203, -5.949287) " x="9.47324764" y="5.43646539" width="10.3722036" height="1"></rect>
+                    </g>
+                    <polygon id="Shape" fill="url(#linearGradient-6)" points="52.0005857 2.05128205 17.68 33.577081 17.68 80 86.32 80 86.32 33.577081"></polygon>
+                    <polygon id="Shape" fill="#FFFFFF" points="86.32 78.974359 18.72 78.974359 18.72 33.1617587 52.5205827 2.05128205 86.32 33.1617587"></polygon>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-7)" x="29.12" y="9.23076923" width="47.84" height="55.3846154"></rect>
+                    <rect id="Rectangle-path" fill="#FFFFFF" x="29.12" y="9.23076923" width="45.76" height="55.3846154"></rect>
+                    <polygon id="Shape" fill="#F5F5F5" points="18.72 33.8461538 52 56.4102564 18.72 78.974359"></polygon>
+                    <polygon id="Shape" fill="#F5F5F5" points="85.28 33.8461538 52 56.4102564 85.28 78.974359"></polygon>
+                    <path d="M18.72,80 L51.193173,55.8240005 C51.9709149,55.2381537 53.0667542,55.2381537 53.8444962,55.8240005 L86.32,80 L18.72,80 Z" id="Shape" fill="url(#linearGradient-8)"></path>
+                    <path d="M18.72,80 L51.193173,56.831171 C51.9800525,56.2699516 53.0576166,56.2699516 53.8444962,56.831171 L86.32,80 L18.72,80 Z" id="Shape" fill="#FFFFFF"></path>
+                    <rect id="Rectangle-path" fill="#47E6B1" x="36.4" y="19.4871795" width="10.4" height="2.05128205"></rect>
+                    <rect id="Rectangle-path" fill="#F5F5F5" x="36.4" y="23.5897436" width="32.24" height="2.05128205"></rect>
+                    <rect id="Rectangle-path" fill="#F5F5F5" x="36.4" y="26.6666667" width="32.24" height="2.05128205"></rect>
+                    <rect id="Rectangle-path" fill="#F5F5F5" x="36.4" y="29.7435897" width="32.24" height="2.05128205"></rect>
+                    <rect id="Rectangle-path" fill="#F5F5F5" x="36.4" y="31.7948718" width="32.24" height="2.05128205"></rect>
+                    <rect id="Rectangle-path" fill="#F5F5F5" x="36.4" y="34.8717949" width="14.56" height="2.05128205"></rect>
+                    <rect id="Rectangle-path" fill="#002F6C" x="54.08" y="34.8717949" width="14.56" height="2.05128205"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
