@@ -81,6 +81,8 @@ p,
       margin: 1em 0 0; } }
 
 a {
+  color: #077cc8;
+  font-weight: 500;
   text-decoration: none; }
 
 input {
